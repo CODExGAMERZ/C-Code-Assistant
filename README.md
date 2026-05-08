@@ -73,7 +73,7 @@ All Ollama traffic is routed through the Flask backend (localhost proxy), so Oll
 
 ### 1. Clone the repo
 ```bash
-git clone https://github.com/YOUR_USERNAME/c-code-assistant.git
+git clone https://github.com/CODExGAMERZ/C-Code-Assistant.git
 cd c-code-assistant
 ```
 
