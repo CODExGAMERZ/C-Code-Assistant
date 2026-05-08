@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+venv/
+env/
+.venv/
+
+# Temp C files created by backend
+ca_*.c
+ca_*.out
+ca_*.exe
+
+# Compiled binaries
+*.out
+*.exe
+*.o
+*.a
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+server.log
+
+# Secrets (just in case)
+.env
+*.key
+*.pem
