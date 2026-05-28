@@ -126,7 +126,7 @@ def ollama_generate():
     body = request.get_json(force=True, silent=True) or {}
     try:
         r = req_lib.post(
-            OLLAMA_BASE + "/api/chat",
+            OLLAMA_BASE + "/api/generate",
             json=body,
             timeout=(5, 90)
         )

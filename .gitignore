@@ -1,9 +1,10 @@
-# Python
+# Python bytecode and caches
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
-.env
+
+# Virtual environments
 venv/
 env/
 .venv/
@@ -36,7 +37,7 @@ $RECYCLE.BIN/
 *.log
 server.log
 
-# Secrets (just in case)
+# Secrets / Configuration
 .env
 *.key
 *.pem
